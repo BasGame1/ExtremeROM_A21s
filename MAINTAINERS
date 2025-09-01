@@ -36,3 +36,7 @@ F: target/g0s/*
 F: target/r0s/*
 F: target/r11s/*
 
+Exynos 850
+M: BasGame1 (@basgame1)
+F: platform/exynos850/*
+F: target/a21s/*
