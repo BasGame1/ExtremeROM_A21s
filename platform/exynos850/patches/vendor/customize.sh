@@ -1,5 +1,6 @@
-echo "Updating Vibrator/RIL/Face/WPA HALs..."
+LOG_STEP_IN "Updating Vibrator/RIL/Face/WPA HALs..."
 # Delete hermes to get rid of weaver encryption blobs
+LOG_STEP_OUT
 BLOBS_LIST="
 bin/hw/vendor.samsung.hardware.vibrator@2.2-service
 etc/init/vendor.samsung.hardware.vibrator@2.2-service.rc
